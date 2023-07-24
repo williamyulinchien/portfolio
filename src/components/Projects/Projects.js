@@ -19,16 +19,24 @@ const Projects = () => (
             </TitleContent>
             <CardInfo className="card-info">{p.description}</CardInfo>
             <div>
-              <TitleContent>Stack</TitleContent>
               <TagList>
                 {p.tags.map((t, id) => {
-                  return <Tag key={id}>{t}</Tag>;
+                  return <Tag key={id} disabled={id === 3}>{t}</Tag>;
                 })}
               </TagList>
             </div>
             <UtilityList>
-              <ExternalLinks href={p.visit}>Website</ExternalLinks>
-              <ExternalLinks href={p.source}>Source code</ExternalLinks>
+            {id === 3 ? (
+          <>
+            <ExternalLinks href={p.visit}>Document</ExternalLinks>
+            <ExternalLinks href={p.source} disabled style={{ textDecoration: "line-through" }}> Source code</ExternalLinks>
+          </>
+        ) : (
+          <>
+            <ExternalLinks href={p.visit}>Website</ExternalLinks>
+            <ExternalLinks href={p.source}>Source code</ExternalLinks>
+          </>
+        )}
             </UtilityList>
           </BlogCard>
         );

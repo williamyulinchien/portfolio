@@ -3,7 +3,10 @@ import styled from 'styled-components';
 export const Img = styled.img`
   width:100%;
   height:100%;
+  max-width: 400px;
+  max-height: 400px;
   object-fit: cover;
+  object-position: top;
   overflow: hidden;
 `
 
@@ -98,6 +101,16 @@ transition: 0.5s;
 &:hover{
   background: #801414;
 
+}
+&[disabled] {
+  pointer-events: none;
+  color: #ccc;
+  background: #6b3030;
+
+  &:hover {
+    background: #6b3030;
+  }
+  text-decoration: line-through;
 }
 `;
 

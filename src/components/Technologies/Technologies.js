@@ -10,20 +10,21 @@ const Technologies = () =>  (
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range a technologies in the web development world.
-      From Back-end To Design
+      I have solid knowledge with a range a technologies in software engineering.
+      Including Front-End, Back-End and Artificial Intelligence related. 
     </SectionText>
     <List>
       <ListItem>
         <Picture>
           <DiReact size="3rem" />
+          <TbBrandReactNative size = '3rem'/>
           <TbBrandNextjs size = '3rem'/>
         </Picture>
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experiece with <br />
-            React.js and Next.js
+            React/React Native and Next.js
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -37,7 +38,7 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node and Databases
+            NodeJs and Databases
           </ListParagraph>
         </ListContainer>
       </ListItem>
