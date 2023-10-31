@@ -37,7 +37,7 @@ export const projects = [
   },
   {
     title: 'E-commerce with Dashboard ',
-    description: "Full stack NextJS Ecommerce website with a dashboard. ",
+    description: "Full stack NextJS Ecommerce website with a bussiness dashboard.",
     image: '/images/image5.png',
     tags: ['NextJS', 'Prisma','MySQL','Clerk','Stripe'],
     source:'https://github.com/williamyulinchien/ecommerce-store',
