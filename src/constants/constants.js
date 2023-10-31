@@ -28,17 +28,26 @@ export const projects = [
   },
   {
     title: 'Metal Casting Surface Inspection',
-    description: "A deep learning computer vision project based on YOLOv5, ",
+    description: "A deep learning computer vision project based on YOLOv5. ",
     image: '/images/image4.png',
     tags: ['Pytorch', 'Deep Learning',],
     source: '',
     visit: 'https://drive.google.com/file/d/1JQvXWYdiKjNpi0Bi6Wk8w4eI20cTrYor/view?usp=drive_link',
     id: 3,
   },
+  {
+    title: 'E-commerce with Dashboard ',
+    description: "Full stack NextJS Ecommerce website with a dashboard. ",
+    image: '/images/image5.png',
+    tags: ['NextJS', 'Prisma','MySQL','Clerk','Stripe'],
+    source:'https://github.com/williamyulinchien/ecommerce-store',
+    visit: 'https://vercel.com/yulinchi-buffaloedu/ecommerce-store',
+    id: 4,
+  },
 ];
 
 export const TimeLineData = [
-  {year:2015,text:'Started my Master degree in mechanical engineering'},
+  { year: 2015, text:'Started my Master degree in mechanical engineering'},
   { year: 2017, text: 'Worked as a product/project engineer in manufacturing companies', },
   { year: 2021, text: 'Started another MS degree in engineering science of Robotics/AI', },
   { year: 2022, text: 'started as a freelance developer', },

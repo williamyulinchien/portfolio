@@ -9,8 +9,8 @@ const Hero = (props) => {
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
-          Welcome To <br />
-          My Personal Portfolio
+          Welcome To William Chien's<br />
+          Personal Portfolio
         </SectionTitle>
         <SectionText>
         As a soild backgound of mechanical/AI robotic engineer, I am interested in developing software systems, AI related projects. Recently, I am working with NextJS projects.

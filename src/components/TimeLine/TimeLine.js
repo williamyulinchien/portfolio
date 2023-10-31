@@ -50,7 +50,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      Originally, I was a product engineer in manufacturing companies after graduated from mechanical engineering. Back to 2020, I was so fascinated in Artificial Intelligence and Software how to influence industries recently.
+      Originally, I was a product engineer in manufacturing companies after graduated from mechanical engineering. Back to 2020, I was so fascinated in Artificial Intelligence and Software engineering how to influence industries recently.
       Therefore, I chose to back to my school to enhance programming skills and dived into Artificial Intelligence theories. Currently, I am working with full stack engineering to combine with AI functionalities.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
