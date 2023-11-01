@@ -41,7 +41,7 @@ export const projects = [
     image: '/images/image5.png',
     tags: ['NextJS', 'Prisma','MySQL','Clerk','Stripe'],
     source:'https://github.com/williamyulinchien/ecommerce-store',
-    visit: 'https://vercel.com/yulinchi-buffaloedu/ecommerce-store',
+    visit: 'https://ecommerce-store-omega-blush.vercel.app',
     id: 4,
   },
 ];
