@@ -6,7 +6,7 @@ export const Img = styled.img`
   max-width: 400px;
   max-height: 400px;
   object-fit: cover;
-  object-position: top;
+  object-position: center;
   overflow: hidden;
 `
 
@@ -29,7 +29,7 @@ export const BlogCard = styled.div`
   border-radius: 10px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
-  width: 400px;
+  width: 300px;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
   }
@@ -75,7 +75,6 @@ export const CardInfo = styled.p`
   color: #e4e6e7;
   font-style: 2rem;
   line-height: 24px;
-  text-align: justify;
   @media ${(props) => props.theme.breakpoints.sm} {
     padding:.3rem
   
