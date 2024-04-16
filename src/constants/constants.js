@@ -18,10 +18,10 @@ export const projects = [
     id: 1,
   },
   {
-    title: 'E-commerce with Dashboard ',
+    title: 'E-commerce store with Dashboard ',
     description: "Full stack NextJS Ecommerce website with a bussiness dashboard.",
-    image: '/images/image3.png',
-    tags: ['NextJS', 'Prisma','MySQL','Clerk','Stripe'],
+    image: '/images/image5.png',
+    tags: ['NextJS','MySQL','Typescript','Stripe'],
     source:'https://github.com/williamyulinchien/ecommerce-store',
     visit: 'https://www.youteshopping.com/',
     id: 2,
