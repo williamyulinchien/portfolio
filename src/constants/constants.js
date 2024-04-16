@@ -42,5 +42,5 @@ export const TimeLineData = [
   { year: 2015, text:'Started my Master degree in mechanical engineering'},
   { year: 2017, text: 'Worked as a product/project engineer in manufacturing companies', },
   { year: 2021, text: 'Started another MS degree in engineering science of Robotics/AI', },
-  { year: 2022, text: 'started as a freelance developer', },
+  { year: 2022, text: 'started as a software developer with Youte Investing Corp.', },
 ];
