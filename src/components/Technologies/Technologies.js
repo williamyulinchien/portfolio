@@ -24,7 +24,7 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experiece with <br />
-            React/React Native and Next.js
+            React/React Native and NextJS
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -38,7 +38,7 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            NodeJs and Databases
+            NodeJS and Databases
           </ListParagraph>
         </ListContainer>
       </ListItem>
