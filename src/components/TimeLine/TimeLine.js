@@ -50,8 +50,8 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      Originally, I was a product engineer in manufacturing companies after graduated from mechanical engineering. Back to 2020, I was so fascinated in Artificial Intelligence and Software engineering how to influence industries recently.
-      Therefore, I chose to back to my school to enhance programming skills and dived into Artificial Intelligence theories. Currently, I am working with full stack engineering to combine with AI functionalities.
+      Initially forging my path as a product engineer after obtaining a degree in mechanical engineering, I found my calling in the intersection of technology and industry. 
+      The allure of Artificial Intelligence and its burgeoning impact on the sector inspired a pivotal career shift in 2020. I recommitted to academia with a focus on advancing my programming acumen and mastering AI theory. Presently, I am at the forefront, synthesizing full-stack engineering practices with AI technologies to elevate and transform business solutions.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

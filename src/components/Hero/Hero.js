@@ -13,7 +13,7 @@ const Hero = (props) => {
           Personal Portfolio
         </SectionTitle>
         <SectionText>
-        As a soild backgound of mechanical/AI robotic engineer, I am interested in developing software systems, AI related projects. Recently, I am working with NextJS projects.
+        With a robust foundation in mechanical and AI robotics engineering, I am passionate about crafting innovative software systems and pioneering AI-related projects. My current endeavor involves working with Next.js, furthering my commitment to developing cutting-edge technological solutions
         </SectionText>
         <Button onClick={()=>window.location = 'https://www.linkedin.com/in/yulinwilliamchien/'}>Learn More</Button>
       </LeftSection>

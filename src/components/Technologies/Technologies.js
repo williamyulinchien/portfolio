@@ -10,8 +10,7 @@ const Technologies = () =>  (
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I have solid knowledge with a range a technologies in software engineering.
-      Including Front-End, Back-End and Artificial Intelligence related. 
+    Possessing a strong command of software engineering technologies, I have comprehensive expertise across Front-End, Back-End, and Artificial Intelligence domains, positioning me as a versatile contributor to technology-driven projects 
     </SectionText>
     <List>
       <ListItem>
